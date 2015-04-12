@@ -1,0 +1,748 @@
+﻿Log file open, 04/07/15 18:08:28
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.08-01.08.28:920][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.08-01.08.28:971][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.08-01.08.28:984][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.08-01.08.28:992][  0]LogInit: Object subsystem initialized
+[2015.04.08-01.08.28:994][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.08-01.08.28:994][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeFinal/ZekeTestttt/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-01.08.28:994][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.08-01.08.28:994][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeFinal/ZekeTestttt/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.08-01.08.28:994][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.08-01.08.28:994][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.08-01.08.28:994][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.08-01.08.29:000][  0]LogInit: Computer: AI251LAB0234P23
+[2015.04.08-01.08.29:000][  0]LogInit: User: student
+[2015.04.08-01.08.29:000][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.08-01.08.29:000][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2015.04.08-01.08.29:000][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.08-01.08.29:000][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.08-01.08.29:000][  0]LogMemory: Process Physical Memory: 48.23 MB used, 48.23 MB peak
+[2015.04.08-01.08.29:000][  0]LogMemory: Process Virtual Memory: 28.30 MB used, 28.30 MB peak
+[2015.04.08-01.08.29:000][  0]LogMemory: Physical Memory: 4092.64 MB used, 8115.79 MB total
+[2015.04.08-01.08.29:000][  0]LogMemory: Virtual Memory: 279.98 MB used, 8388608.00 MB total
+[2015.04.08-01.08.29:026][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.04.08-01.08.29:026][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.04.08-01.08.29:026][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.08-01.08.29:030][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.08-01.08.29:042][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.08-01.08.29:094][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.08-01.08.29:148][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.08-01.08.29:148][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.08-01.08.29:221][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.08-01.08.31:724][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-01.08.32:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-01.08.32:270][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.08-01.08.32:699][  0]LogDerivedDataCache: Loaded boot cache 0.43s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-01.08.32:699][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.08-01.08.32:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/student/Desktop/ZekeFinal/ZekeTestttt/ZekeGame4.6/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.08-01.08.32:699][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.08-01.08.32:815][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.08-01.08.32:826][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.08-01.08.33:119][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.08-01.08.33:119][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.08-01.08.33:472][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.08-01.08.33:547][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.08-01.08.34:289][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.08-01.08.34:486][  0]SourceControl: Info Source control is disabled
+[2015.04.08-01.08.34:486][  0]SourceControl: Info Source control is disabled
+[2015.04.08-01.08.34:486][  0]SourceControl: Info Source control is disabled
+[2015.04.08-01.08.34:486][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.08-01.08.34:486][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.08-01.08.34:495][  0]SourceControl: Info Source control is disabled
+[2015.04.08-01.08.34:670][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.08-01.08.34:670][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.04.08-01.08.34:762][  0]LogEngine: Initializing Engine...
+[2015.04.08-01.08.37:906][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.08-01.08.37:925][  0]LogInit: FAudioDevice initialized.
+[2015.04.08-01.08.37:960][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.08-01.08.37:978][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.08-01.08.37:983][  0]LogInit: Texture streaming: Enabled
+[2015.04.08-01.08.38:070][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.08-01.08.38:070][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.08-01.08.38:070][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.08-01.08.38:070][  0]LogAnalytics: SetUserId ac243744422c2072e30334a1d0643d98||71415ae6-ebd4-4133-a54a-1903ff7398c1
+[2015.04.08-01.08.38:070][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.08-01.08.38:115][  0]LogInit: Transaction tracking system initialized
+[2015.04.08-01.08.38:271][  0]BlueprintLog: New page: Editor Load
+[2015.04.08-01.08.38:303][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.04.08-01.08.38:303][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.08-01.08.38:793][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-01.08.39:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.08-01.08.39:495][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.08-01.08.39:496][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.08-01.08.39:500][  0]LogConsoleResponse:Display: 
+[2015.04.08-01.08.39:682][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.08-01.08.39:820][  0]SourceControl: Info Source control is disabled
+[2015.04.08-01.08.39:820][  0]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeFinal/ZekeTestttt/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-01.08.39:848][  0]LightingResults: New page: Lighting Build
+[2015.04.08-01.08.39:859][  0]MapCheck: New page: Map Check
+[2015.04.08-01.08.39:859][  0]LightingResults: New page: Lighting Build
+[2015.04.08-01.08.39:866][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E12980
+[2015.04.08-01.08.43:095][  0]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-01.08.43:104][  0]LogBlueprint:Warning: [compiler] Warning [0015.98] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2015.04.08-01.08.43:104][  0]LogBlueprint:Warning: [compiler] Warning [0015.98] Compile of Example_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.08-01.08.43:104][  0]LogBlueprint:Warning: [compiler] Warning [0015.98] Compile of Example_Map failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.08-01.08.43:104][  0]LogBlueprint:Warning: [compiler] Warning [0015.98] Compile of Example_Map failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.04.08-01.08.43:113][  0]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.04.08-01.08.43:122][  0]LogBlueprint:Warning: [compiler] Warning [0016.00] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2015.04.08-01.08.43:122][  0]LogBlueprint:Warning: [compiler] Warning [0016.00] Compile of Example_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.08-01.08.43:819][  0]LogStaticMesh: Building static mesh Low_M9...
+[2015.04.08-01.08.43:927][  0]LogStaticMesh: Built static mesh [107.840233ms] /Game/Zeke/Mesh/Low_M9.Low_M9
+[2015.04.08-01.08.43:992][  0]LogTexture:Display: Building textures: M9_d (AutoDXT)
+[2015.04.08-01.08.44:217][  0]LogMaterial: Missing cached shader map for material M9_mat, compiling. 
+[2015.04.08-01.08.44:758][  0]LogTexture:Display: Building textures: PoPo_Body_diffuse (AutoDXT)
+[2015.04.08-01.08.45:772][  0]LogTexture:Display: Building textures: PoPo_Body_specular (AutoDXT)
+[2015.04.08-01.08.46:078][  0]LogTexture:Display: Building textures: PoPo_Body_normal (BC5)
+[2015.04.08-01.08.46:203][  0]LogMaterial: Missing cached shader map for material Bodymat_eyelashes_Popo, compiling. 
+[2015.04.08-01.08.46:220][  0]LogMaterial: Missing cached shader map for material Bodymat_popo, compiling. 
+[2015.04.08-01.08.46:261][  0]LogTexture:Display: Building textures: PoPo_Bottom_diffuse (AutoDXT)
+[2015.04.08-01.08.46:552][  0]LogTexture:Display: Building textures: PoPo_Bottom_normal (BC5)
+[2015.04.08-01.08.46:581][  0]LogTexture:Display: Building textures: PoPo_Bottom_specular (AutoDXT)
+[2015.04.08-01.08.46:618][  0]LogMaterial: Missing cached shader map for material Bottommat_popo, compiling. 
+[2015.04.08-01.08.46:658][  0]LogTexture:Display: Building textures: PoPo_Shoes_diffuse (AutoDXT)
+[2015.04.08-01.08.46:836][  0]LogTexture:Display: Building textures: PoPo_Shoes_normal (BC5)
+[2015.04.08-01.08.46:868][  0]LogTexture:Display: Building textures: PoPo_Shoes_specular (AutoDXT)
+[2015.04.08-01.08.46:901][  0]LogMaterial: Missing cached shader map for material Shoesmat_Popo, compiling. 
+[2015.04.08-01.08.46:944][  0]LogTexture:Display: Building textures: PoPo_Top_diffuse (AutoDXT)
+[2015.04.08-01.08.47:180][  0]LogTexture:Display: Building textures: PoPo_Top_normal (BC5)
+[2015.04.08-01.08.47:215][  0]LogTexture:Display: Building textures: PoPo_Top_specular (AutoDXT)
+[2015.04.08-01.08.47:246][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2015.04.08-01.08.47:285][  0]LogStaticMesh: Building static mesh sword...
+[2015.04.08-01.08.47:299][  0]LogStaticMesh: Built static mesh [13.531816ms] /Game/zeke/Assets/sword.sword
+[2015.04.08-01.08.47:340][  0]LogTexture:Display: Building textures: M9_d (AutoDXT)
+[2015.04.08-01.08.47:567][  0]LogStaticMesh: Building static mesh Ammo...
+[2015.04.08-01.08.47:592][  0]LogStaticMesh: Built static mesh [25.258781ms] /Game/Zeke/Assets/Ammo.Ammo
+[2015.04.08-01.08.47:638][  0]LogStaticMesh: Building static mesh Building0003...
+[2015.04.08-01.09.16:560][  0]LogStaticMesh: Built static mesh [28921.408203ms] /Game/Zeke/Meshes/Building0003.Building0003
+[2015.04.08-01.09.17:491][  0]LogTexture:Display: Building textures: BrickTile (AutoDXT)
+[2015.04.08-01.09.22:058][  0]LogTexture:Display: Building textures: BrickTileNRML (BC5)
+[2015.04.08-01.09.22:799][  0]LogTexture:Display: Building textures: ConcreteTile (AutoDXT)
+[2015.04.08-01.09.27:007][  0]LogStaticMesh: Building static mesh Building0001...
+[2015.04.08-01.09.34:817][  0]LogStaticMesh: Built static mesh [7809.813965ms] /Game/Zeke/Meshes/Building0001.Building0001
+[2015.04.08-01.09.35:230][  0]LogStaticMesh: Building static mesh Building0002...
+[2015.04.08-01.10.02:686][  0]LogStaticMesh: Built static mesh [27454.210938ms] /Game/Zeke/Meshes/Building0002.Building0002
+[2015.04.08-01.10.03:586][  0]LogStaticMesh: Building static mesh Building0006...
+[2015.04.08-01.10.34:761][  0]LogStaticMesh: Built static mesh [31173.220703ms] /Game/Zeke/Meshes/Building0006.Building0006
+[2015.04.08-01.10.35:874][  0]LogStaticMesh: Building static mesh Building0004...
+[2015.04.08-01.10.36:878][  0]LogStaticMesh: Built static mesh [1004.225830ms] /Game/Zeke/Meshes/Building0004.Building0004
+[2015.04.08-01.10.36:944][  0]LogStaticMesh: Building static mesh Building0005...
+[2015.04.08-01.11.00:943][  0]LogStaticMesh: Built static mesh [23996.875000ms] /Game/Zeke/Meshes/Building0005.Building0005
+[2015.04.08-01.11.01:765][  0]LogStaticMesh: Building static mesh Building0007...
+[2015.04.08-01.11.45:292][  0]LogStaticMesh: Built static mesh [43525.191406ms] /Game/Zeke/Meshes/Building0007.Building0007
+[2015.04.08-01.11.46:401][  0]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2015.04.08-01.11.46:431][  0]LogMaterial: Missing cached shader map for material Concretre, compiling. 
+[2015.04.08-01.11.46:450][  0]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2015.04.08-01.11.46:468][  0]LogStaticMesh: Building static mesh Building009...
+[2015.04.08-01.11.48:417][  0]LogStaticMesh: Built static mesh [1948.835815ms] /Game/Zeke/Meshes/Building009.Building009
+[2015.04.08-01.11.48:733][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.04.08-01.11.48:764][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.08-01.11.48:986][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.08-01.11.49:249][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.08-01.11.49:272][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.04.08-01.11.49:287][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.04.08-01.11.49:315][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.04.08-01.11.49:337][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.04.08-01.11.49:356][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.08-01.11.49:606][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.04.08-01.11.49:621][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.08-01.11.49:688][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.08-01.11.49:748][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.08-01.11.49:754][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.04.08-01.11.49:756][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.04.08-01.11.49:761][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.04.08-01.11.49:773][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.04.08-01.11.49:789][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.08-01.11.49:842][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.04.08-01.11.49:846][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.04.08-01.11.49:854][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.08-01.11.49:896][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.04.08-01.11.49:935][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.04.08-01.11.49:964][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.04.08-01.11.49:966][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.04.08-01.11.50:706][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.08-01.11.50:757][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.04.08-01.11.50:766][  0]Cmd: MAP CHECKDEP
+[2015.04.08-01.11.50:766][  0]MapCheck: New page: Example_Map - Apr 7, 2015, 11:11:50 AM
+[2015.04.08-01.11.50:942][  0]MapCheck:Warning: Warning Police_Animation_C_0 Police_Animation_C /Game/Maps/Example_Map.Example_Map:PersistentLevel.Police_Character_C_0.CharacterMesh0.Police_Animation_C_0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning Police_Animation_C_0 Police_Animation_C /Game/Maps/Example_Map.Example_Map:PersistentLevel.Police_Character_C_0.CharacterMesh0.Police_Animation_C_0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning Police_Animation_C_0 Police_Animation_C /Game/Maps/Example_Map.Example_Map:PersistentLevel.Police_Character_C_0.CharacterMesh0.Police_Animation_C_0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning CharacterMesh0 SkeletalMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Police_Character_C_0.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0001_4.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0002_7.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:943][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0003_10.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0004_13.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0005_16.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0006_19.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building0007_22.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building8.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:944][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Building009_7.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.11.50:945][  0]MapCheck: Info Map check complete: 0 Error(s), 13 Warning(s), took 178.545ms to complete.
+[2015.04.08-01.11.50:976][  0]LogFileHelpers: Loading map 'Example_Map' took 191.146
+[2015.04.08-01.11.51:302][  0]LogCollectionManager: Loaded 0 collections in 0.002586 seconds
+[2015.04.08-01.11.51:323][  0]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 1696 classes and 261 folders.
+[2015.04.08-01.11.51:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.04.08-01.11.52:551][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.08-01.11.52:553][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.08-01.11.52:611][  0]LogLoad: Full Startup: 205.48 seconds (BP compile: 0.97 seconds)
+[2015.04.08-01.11.52:984][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.04.08-01.11.53:977][  0]LogRenderer:Warning: Reallocating scene render targets to support 1024x1048 (Frame:2).
+[2015.04.08-01.11.54:794][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.08-01.11.54:977][  1]Cmd: UpdateLandscapeEditorData
+[2015.04.08-01.11.56:375][  4]LogAssetRegistry: Asset discovery search completed in 198.0722 seconds
+[2015.04.08-01.12.22:047][611]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.04.08-01.12.22:498][627]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.04.08-01.12.31:763][902]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.04.08-01.12.33:788][945]LogTexture:Display: Building textures: RD_1w-trp (AutoDXT)
+[2015.04.08-01.12.34:298][945]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling. 
+[2015.04.08-01.12.34:469][945]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.08-01.12.34:659][945]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.04.08-01.12.34:678][945]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.04.08-01.12.34:694][945]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.04.08-01.12.34:711][945]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.04.08-01.12.34:729][945]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.04.08-01.12.34:747][945]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.04.08-01.12.34:766][945]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.04.08-01.12.34:781][945]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.04.08-01.12.34:800][945]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.04.08-01.12.34:820][945]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.04.08-01.12.34:840][945]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.08-01.12.34:883][945]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.04.08-01.12.34:902][945]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.04.08-01.12.34:921][945]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.04.08-01.12.34:941][945]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.04.08-01.12.34:960][945]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.04.08-01.12.34:979][945]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.04.08-01.12.34:996][945]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.04.08-01.12.35:015][945]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2015.04.08-01.12.35:031][945]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2015.04.08-01.12.35:050][945]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2015.04.08-01.12.35:069][945]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.08-01.12.35:087][945]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2015.04.08-01.12.35:106][945]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2015.04.08-01.12.35:125][945]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2015.04.08-01.12.35:143][945]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.04.08-01.12.35:162][945]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2015.04.08-01.12.35:181][945]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2015.04.08-01.12.35:199][945]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2015.04.08-01.12.35:219][945]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2015.04.08-01.12.35:238][945]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2015.04.08-01.12.35:256][945]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2015.04.08-01.12.35:276][945]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.08-01.12.35:294][945]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2015.04.08-01.12.35:312][945]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2015.04.08-01.12.35:331][945]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2015.04.08-01.12.35:349][945]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2015.04.08-01.12.35:369][945]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2015.04.08-01.12.35:388][945]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2015.04.08-01.12.35:406][945]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.04.08-01.12.35:425][945]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2015.04.08-01.12.35:450][945]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2015.04.08-01.12.35:474][945]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.04.08-01.12.35:493][945]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2015.04.08-01.12.35:511][945]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2015.04.08-01.12.35:528][945]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2015.04.08-01.12.35:547][945]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2015.04.08-01.12.35:566][945]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2015.04.08-01.12.35:585][945]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2015.04.08-01.12.35:604][945]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2015.04.08-01.12.35:622][945]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2015.04.08-01.12.35:638][945]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2015.04.08-01.12.35:656][945]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2015.04.08-01.12.35:674][945]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.04.08-01.12.35:694][945]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2015.04.08-01.12.35:714][945]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2015.04.08-01.12.35:732][945]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2015.04.08-01.12.35:749][945]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2015.04.08-01.12.35:769][945]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2015.04.08-01.12.35:787][945]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2015.04.08-01.12.35:804][945]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2015.04.08-01.12.35:820][945]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.04.08-01.12.35:839][945]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.04.08-01.12.35:859][945]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.04.08-01.12.35:877][945]LogTexture:Display: Building textures: HQ_Lightmap0_93 (AutoDXT)
+[2015.04.08-01.12.35:894][945]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.08-01.12.35:948][945]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.04.08-01.12.35:968][945]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.04.08-01.12.35:985][945]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.04.08-01.12.36:001][945]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.04.08-01.12.36:012][945]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.04.08-01.12.36:028][945]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.04.08-01.12.36:045][945]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.04.08-01.12.36:064][945]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.04.08-01.12.36:082][945]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.04.08-01.12.36:100][945]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.04.08-01.12.36:121][945]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.08-01.12.36:142][945]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.04.08-01.12.36:164][945]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.04.08-01.12.36:180][945]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.04.08-01.12.36:197][945]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.04.08-01.12.36:216][945]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.04.08-01.12.36:235][945]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.04.08-01.12.36:255][945]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.04.08-01.12.36:273][945]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2015.04.08-01.12.36:292][945]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2015.04.08-01.12.36:311][945]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2015.04.08-01.12.36:327][945]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.08-01.12.36:343][945]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2015.04.08-01.12.36:361][945]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2015.04.08-01.12.36:381][945]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2015.04.08-01.12.36:396][945]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.04.08-01.12.36:415][945]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2015.04.08-01.12.36:433][945]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2015.04.08-01.12.36:451][945]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2015.04.08-01.12.36:470][945]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2015.04.08-01.12.36:489][945]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2015.04.08-01.12.36:503][945]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2015.04.08-01.12.36:521][945]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.08-01.12.36:533][945]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2015.04.08-01.12.36:551][945]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2015.04.08-01.12.36:564][945]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2015.04.08-01.12.36:582][945]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2015.04.08-01.12.36:601][945]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2015.04.08-01.12.36:621][945]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2015.04.08-01.12.36:641][945]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.04.08-01.12.36:658][945]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2015.04.08-01.12.36:674][945]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2015.04.08-01.12.36:686][945]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.04.08-01.12.36:704][945]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2015.04.08-01.12.36:715][945]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2015.04.08-01.12.36:731][945]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2015.04.08-01.12.36:748][945]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2015.04.08-01.12.36:767][945]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2015.04.08-01.12.36:785][945]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2015.04.08-01.12.36:803][945]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2015.04.08-01.12.36:817][945]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2015.04.08-01.12.36:835][945]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2015.04.08-01.12.36:851][945]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2015.04.08-01.12.36:869][945]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.04.08-01.12.36:886][945]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2015.04.08-01.12.36:905][945]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2015.04.08-01.12.36:924][945]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2015.04.08-01.12.36:942][945]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2015.04.08-01.12.36:961][945]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2015.04.08-01.12.36:979][945]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2015.04.08-01.12.36:994][945]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2015.04.08-01.12.37:008][945]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.04.08-01.12.37:026][945]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.04.08-01.12.37:044][945]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.04.08-01.12.37:068][945]LogTexture:Display: Building textures: LQ_Lightmap_0_93 (DXT1)
+[2015.04.08-01.12.37:079][945]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.08-01.12.37:108][945]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.04.08-01.12.37:109][945]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.04.08-01.12.37:110][945]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.04.08-01.12.37:111][945]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.04.08-01.12.37:112][945]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.04.08-01.12.37:113][945]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.04.08-01.12.37:114][945]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.04.08-01.12.37:115][945]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.04.08-01.12.37:116][945]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.04.08-01.12.37:117][945]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.04.08-01.12.37:118][945]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.04.08-01.12.37:119][945]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.04.08-01.12.37:119][945]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.04.08-01.12.37:120][945]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.04.08-01.12.37:121][945]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.04.08-01.12.37:122][945]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.04.08-01.12.37:123][945]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.04.08-01.12.37:124][945]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.04.08-01.12.37:125][945]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.04.08-01.12.37:126][945]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.04.08-01.12.37:127][945]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.04.08-01.12.37:128][945]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2015.04.08-01.12.37:129][945]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.04.08-01.12.37:130][945]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.04.08-01.12.37:130][945]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2015.04.08-01.12.37:131][945]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2015.04.08-01.12.37:132][945]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2015.04.08-01.12.37:133][945]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2015.04.08-01.12.37:134][945]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2015.04.08-01.12.37:135][945]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2015.04.08-01.12.37:136][945]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2015.04.08-01.12.37:137][945]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2015.04.08-01.12.37:138][945]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2015.04.08-01.12.37:139][945]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.04.08-01.12.37:140][945]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2015.04.08-01.12.37:141][945]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2015.04.08-01.12.37:141][945]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2015.04.08-01.12.37:142][945]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2015.04.08-01.12.37:143][945]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2015.04.08-01.12.37:144][945]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2015.04.08-01.12.37:145][945]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2015.04.08-01.12.37:146][945]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2015.04.08-01.12.37:147][945]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2015.04.08-01.12.37:148][945]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.08-01.12.37:149][945]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2015.04.08-01.12.37:150][945]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2015.04.08-01.12.37:151][945]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2015.04.08-01.12.37:152][945]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2015.04.08-01.12.37:153][945]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2015.04.08-01.12.37:154][945]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2015.04.08-01.12.37:155][945]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2015.04.08-01.12.37:156][945]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2015.04.08-01.12.37:157][945]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2015.04.08-01.12.37:158][945]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2015.04.08-01.12.37:159][945]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.04.08-01.12.37:160][945]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2015.04.08-01.12.37:160][945]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2015.04.08-01.12.37:162][945]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2015.04.08-01.12.37:162][945]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2015.04.08-01.12.37:164][945]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2015.04.08-01.12.37:165][945]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2015.04.08-01.12.37:165][945]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.04.08-01.12.37:166][945]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.04.08-01.12.37:167][945]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.04.08-01.12.37:168][945]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8)
+[2015.04.08-01.12.37:305][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.08-01.12.37:306][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-01.12.39:166][945]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeFinal/ZekeTestttt/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.08-01.12.39:167][945]LightingResults: New page: Lighting Build
+[2015.04.08-01.12.39:199][945]LoadErrors: New page: Loading map: Scene.umap
+[2015.04.08-01.12.39:236][945]MapCheck: New page: Map Check
+[2015.04.08-01.12.39:236][945]LightingResults: New page: Lighting Build
+[2015.04.08-01.12.39:249][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000335FB600
+[2015.04.08-01.12.39:362][945]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.08-01.12.39:395][945]LogAIModule: Creating AISystem for world Scene
+[2015.04.08-01.12.39:488][945]Cmd: MAP CHECKDEP
+[2015.04.08-01.12.39:488][945]MapCheck: New page: Scene - Apr 7, 2015, 11:12:39 AM
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_38 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP_C_0.CharacterMesh0.Police_Animation_C_38 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_39 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP2_3.CharacterMesh0.Police_Animation_C_39 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_40 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP3_6.CharacterMesh0.Police_Animation_C_40 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_41 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP4_9.CharacterMesh0.Police_Animation_C_41 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_42 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP5_12.CharacterMesh0.Police_Animation_C_42 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_43 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP6_15.CharacterMesh0.Police_Animation_C_43 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_44 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP7_18.CharacterMesh0.Police_Animation_C_44 : Externally referenced 
+[2015.04.08-01.12.39:722][945]MapCheck:Warning: Warning Police_Animation_C_45 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP8.CharacterMesh0.Police_Animation_C_45 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_46 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_1.CharacterMesh0.Police_Animation_C_46 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_47 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_2.CharacterMesh0.Police_Animation_C_47 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_48 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_3.CharacterMesh0.Police_Animation_C_48 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_49 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_4.CharacterMesh0.Police_Animation_C_49 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_50 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_5.CharacterMesh0.Police_Animation_C_50 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_51 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_6.CharacterMesh0.Police_Animation_C_51 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_52 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_7.CharacterMesh0.Police_Animation_C_52 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_53 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_8.CharacterMesh0.Police_Animation_C_53 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_54 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_9.CharacterMesh0.Police_Animation_C_54 : Externally referenced 
+[2015.04.08-01.12.39:723][945]MapCheck:Warning: Warning Police_Animation_C_55 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character10_168.CharacterMesh0.Police_Animation_C_55 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_56 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character11_171.CharacterMesh0.Police_Animation_C_56 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_57 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character12_174.CharacterMesh0.Police_Animation_C_57 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_58 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character13_177.CharacterMesh0.Police_Animation_C_58 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_59 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character14.CharacterMesh0.Police_Animation_C_59 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_38 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP_C_0.CharacterMesh0.Police_Animation_C_38 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_39 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP2_3.CharacterMesh0.Police_Animation_C_39 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_40 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP3_6.CharacterMesh0.Police_Animation_C_40 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_41 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP4_9.CharacterMesh0.Police_Animation_C_41 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_42 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP5_12.CharacterMesh0.Police_Animation_C_42 : Externally referenced 
+[2015.04.08-01.12.39:724][945]MapCheck:Warning: Warning Police_Animation_C_43 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP6_15.CharacterMesh0.Police_Animation_C_43 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_44 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP7_18.CharacterMesh0.Police_Animation_C_44 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_45 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP8.CharacterMesh0.Police_Animation_C_45 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_46 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_1.CharacterMesh0.Police_Animation_C_46 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_47 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_2.CharacterMesh0.Police_Animation_C_47 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_48 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_3.CharacterMesh0.Police_Animation_C_48 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_49 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_4.CharacterMesh0.Police_Animation_C_49 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_50 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_5.CharacterMesh0.Police_Animation_C_50 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_51 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_6.CharacterMesh0.Police_Animation_C_51 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_52 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_7.CharacterMesh0.Police_Animation_C_52 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_53 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_8.CharacterMesh0.Police_Animation_C_53 : Externally referenced 
+[2015.04.08-01.12.39:725][945]MapCheck:Warning: Warning Police_Animation_C_54 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_9.CharacterMesh0.Police_Animation_C_54 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_55 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character10_168.CharacterMesh0.Police_Animation_C_55 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_56 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character11_171.CharacterMesh0.Police_Animation_C_56 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_57 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character12_174.CharacterMesh0.Police_Animation_C_57 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_58 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character13_177.CharacterMesh0.Police_Animation_C_58 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_59 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character14.CharacterMesh0.Police_Animation_C_59 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_38 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP_C_0.CharacterMesh0.Police_Animation_C_38 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_39 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP2_3.CharacterMesh0.Police_Animation_C_39 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_40 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP3_6.CharacterMesh0.Police_Animation_C_40 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_41 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP4_9.CharacterMesh0.Police_Animation_C_41 : Externally referenced 
+[2015.04.08-01.12.39:726][945]MapCheck:Warning: Warning Police_Animation_C_42 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP5_12.CharacterMesh0.Police_Animation_C_42 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_43 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP6_15.CharacterMesh0.Police_Animation_C_43 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_44 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP7_18.CharacterMesh0.Police_Animation_C_44 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_45 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.civil_BP8.CharacterMesh0.Police_Animation_C_45 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_46 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_1.CharacterMesh0.Police_Animation_C_46 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_47 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_2.CharacterMesh0.Police_Animation_C_47 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_48 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_3.CharacterMesh0.Police_Animation_C_48 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_49 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_4.CharacterMesh0.Police_Animation_C_49 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_50 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_5.CharacterMesh0.Police_Animation_C_50 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_51 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_6.CharacterMesh0.Police_Animation_C_51 : Externally referenced 
+[2015.04.08-01.12.39:727][945]MapCheck:Warning: Warning Police_Animation_C_52 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_7.CharacterMesh0.Police_Animation_C_52 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_53 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_8.CharacterMesh0.Police_Animation_C_53 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_54 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_9.CharacterMesh0.Police_Animation_C_54 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_55 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character10_168.CharacterMesh0.Police_Animation_C_55 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_56 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character11_171.CharacterMesh0.Police_Animation_C_56 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_57 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character12_174.CharacterMesh0.Police_Animation_C_57 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_58 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character13_177.CharacterMesh0.Police_Animation_C_58 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Animation_C_59 Police_Animation_C /Game/level/Scene.Scene:PersistentLevel.Police_Character14.CharacterMesh0.Police_Animation_C_59 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Character10_168 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character10_168.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Character11_171 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character11_171.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:728][945]MapCheck:Warning: Warning Police_Character12_174 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character12_174.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character13_177 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character13_177.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character14 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character14.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_1 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_1.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_2 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_2.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_3 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_3.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_4 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_4.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_5 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_5.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_6 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_6.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_7 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_7.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:729][945]MapCheck:Warning: Warning Police_Character_C_8 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_8.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Police_Character_C_9 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.Police_Character_C_9.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building0007_22 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building0007_22.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building17 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building17.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building14 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building14.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building15 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building15.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building16 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building16.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building17 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building17.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building18 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building18.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building19 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building19.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building20 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building20.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:730][945]MapCheck:Warning: Warning Building21 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building21.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building22_13 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building22_13.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building23_22 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building23_22.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building28 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building28.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building33 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building33.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building34 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building34.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building35 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building35.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building009_7 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building009_7.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building10 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building10.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building11 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building11.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:731][945]MapCheck:Warning: Warning Building12 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building12.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building13 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building13.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building14 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building14.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building15 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building15.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building16 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building16.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building17 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building17.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building18 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building18.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building19 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building19.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building20 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building20.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building21 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building21.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:732][945]MapCheck:Warning: Warning Building22_13 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building22_13.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building23_22 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building23_22.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building24 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building24.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building25 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building25.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building26 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building26.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building27 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building27.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building28 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building28.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building29 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building29.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building30 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building30.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building31 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building31.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building32 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building32.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:733][945]MapCheck:Warning: Warning Building33 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building33.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning Building34 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building34.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning Building35 StaticMeshComponent /Game/level/Scene.Scene:PersistentLevel.Building35.StaticMeshComponent0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP2_3 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP2_3.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP3_6 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP3_6.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP4_9 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP4_9.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP5_12 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP5_12.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP6_15 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP6_15.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP7_18 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP7_18.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:734][945]MapCheck:Warning: Warning civil_BP8 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP8.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:735][945]MapCheck:Warning: Warning civil_BP_C_0 SkeletalMeshComponent /Game/level/Scene.Scene:PersistentLevel.civil_BP_C_0.CharacterMesh0 : Externally referenced 
+[2015.04.08-01.12.39:735][945]MapCheck:Warning: Warning Landscape_0 Landscape /Game/level/Scene.Scene:PersistentLevel.Landscape_0 : Externally referenced 
+[2015.04.08-01.12.39:735][945]MapCheck: Info Map check complete: 0 Error(s), 132 Warning(s), took 246.69ms to complete.
+[2015.04.08-01.12.39:754][945]LogFileHelpers: Loading map 'Scene' took 0.590
+[2015.04.08-01.12.39:858][946]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.08-01.12.39:859][946]Cmd: UpdateLandscapeEditorData
+[2015.04.08-01.18.12:261][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.08-01.18.12:261][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.08-01.18.12:261][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.08-01.18.14:020][581]Cmd: QUIT_EDITOR
+[2015.04.08-01.18.14:236][581]LogExit: Preparing to exit.
+[2015.04.08-01.18.15:453][581]LogExit: Editor shut down
+[2015.04.08-01.18.15:453][581]LogExit: Transaction tracking system shut down
+[2015.04.08-01.18.15:454][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000327A25C0
+[2015.04.08-01.18.15:454][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F62BCE0
+[2015.04.08-01.18.15:454][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000355D60C0
+[2015.04.08-01.18.15:454][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A468720
+[2015.04.08-01.18.15:456][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A4682C0
+[2015.04.08-01.18.15:456][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B7302C0
+[2015.04.08-01.18.15:540][581]LogExit: Object subsystem successfully closed.
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.08-01.18.15:605][581]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.08-01.18.15:606][581]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.08-01.18.16:263][581]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.08-01.18.16:264][581]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.08-01.18.16:337][581]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.08-01.18.16:337][581]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.08-01.18.16:337][581]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.08-01.18.16:337][581]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.08-01.18.16:337][581]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.08-01.18.16:338][581]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.08-01.18.16:494][581]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.08-01.18.16:495][581]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.08-01.18.16:595][581]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.08-01.18.16:595][581]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.08-01.18.16:597][581]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.08-01.18.16:601][581]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.08-01.18.16:631][581]LogDerivedDataCache: Shutdown
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.08-01.18.16:631][581]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.08-01.18.16:633][581]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.08-01.18.16:633][581]LogExit: Exiting.
+[2015.04.08-01.18.16:664][581]Log file closed, 04/07/15 18:18:16
